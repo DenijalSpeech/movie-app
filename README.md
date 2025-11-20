@@ -11,13 +11,11 @@ Implement a Movie Ratings feature in the Vue 3 application. This feature will fe
    - Description
    - Rating
    - "Rate" button
-3. Clicking the "Rate" button should trigger a placeholder alert (`Rate movie clicked!`).
-4. The list of movies should be rendered in `MovieList` using `v-for`.
-5. State management should be handled with Pinia (`movieStore`):
+3. Clicking the "Rate" button should trigger a placeholder,
+4. The list of movies should be rendered in a list
+5. State management should be handled
    - `movies` array stores all fetched movies.
    - `loading` state should indicate fetch status.
 6. Styling should be consistent with the provided CSS:
-   - Dark mode by default, light mode support with media query.
    - Buttons and cards styled according to design.
-7. The application should mount correctly in `#app`.
 
