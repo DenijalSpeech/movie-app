@@ -1,6 +1,6 @@
 <template>
   <div class="movie-card" data-testid="movie-card">
-    <h3>{{ movie.title }}</h3>
+    <h3>{{ "Title: " + movie.title }}</h3>
     <p>{{ movie.description }}</p>
     <p>Rating: {{ movie.rating }}/10</p>
     <button @click="rateMovie">Rate</button>
